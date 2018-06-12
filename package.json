@@ -1,0 +1,14 @@
+{
+  "name": "travis-cron-playground",
+  "description": "Simple Travis-CI script to create a gist",
+  "author": "bmac",
+  "version": "0.0.1",
+  "scripts": {
+      "test": "node index.js"
+  },
+  "dependencies": {
+    "gists": "^1.0.1"
+  },
+  "repository": "https://github.com/bmac/travis-cron-playground",
+  "license": "MIT"
+}
