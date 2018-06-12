@@ -6,7 +6,7 @@ var gists = new Gists({
 
 var now = new Date();
 gists.create({
-    "description": `Gist created from travis-cron-playground at ${now.toString()}`,
+    "description": 'Gist created from travis-cron-playground at ' + now.toString(),
     "public": false,
     "files": {
         "enviroment.json": {
